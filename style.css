@@ -1,0 +1,21 @@
+body {
+  background: #f3f7fb;
+}
+
+.container-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-text {
+  text-align: center;
+  font-weight: bold;
+  color: #004aad;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+  

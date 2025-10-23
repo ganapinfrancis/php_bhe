@@ -1,0 +1,140 @@
+/* ============================
+   General Styles
+============================ */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+/* ============================
+   Card Styles
+============================ */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+}
+
+/* ============================
+   Table Styles
+============================ */
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9fafb;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+/* ============================
+   Badges
+============================ */
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.7em;
+  border-radius: 8px;
+}
+
+.badge.bg-warning {
+  background-color: #f59e0b !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6b7280 !important;
+}
+
+/* ============================
+   Buttons
+============================ */
+.btn-sm {
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.btn-success {
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.btn-outline-primary {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+/* ============================
+   Forms & Inputs
+============================ */
+input[type="text"], input[type="date"], select, textarea, input[type="file"] {
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+}
+
+/* ============================
+   Links
+============================ */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ============================
+   Responsive Table Scroll
+============================ */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* ============================
+   Color-coded Rows (Optional)
+============================ */
+.tr-scholar {
+  background-color: #dcfce7 !important; /* light green */
+}
+
+.tr-pending {
+  background-color: #fef3c7 !important; /* light yellow */
+}
+
+.tr-not-scholar {
+  background-color: #fee2e2 !important; /* light red */
+}
